@@ -13,7 +13,7 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
-
+#local storage
 
 # Loads aws default vpc resource
 module "aws_vpc" {
